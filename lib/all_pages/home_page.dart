@@ -20,11 +20,14 @@ class homePage extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.only(top: 35.0),
-            child: Text(
-              "We deliver a fresh groceries at your doorstep",
-              textAlign: TextAlign.center,
-              style: GoogleFonts.aBeeZee(
-                  fontSize: 35, fontWeight: FontWeight.bold),
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10.0),
+              child: Text(
+                "We deliver a fresh groceries at your doorstep",
+                textAlign: TextAlign.center,
+                style: GoogleFonts.aBeeZee(
+                    fontSize: 35, fontWeight: FontWeight.bold),
+              ),
             ),
           ),
           Padding(
